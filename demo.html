@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>WebVTT Video Subtitles Example for Chrome</title>
+	<meta name="keywords" content="webvtt,webvtt example,chrome,html5">
+	<meta name="description" content="Sample HTML5 code that shows how Chrome supports WebVTT subtitles">
+	<style>
+		body { 
+			padding:10px;
+			font-size:80%;
+			font-family:verdana, serif;
+		}
+	</style>
+</head>
+<body>
+
+<div style="margin:0 auto;width:960px;">
+	<video width="960" height="480" controls="controls">
+  	<source src="../img/Wedding.mp4" type="video/mp4">
+  	<track src="../img/subtitle.vtt" kind="subtitles" srclang="en" label="English subtitles" default/> 
+  	</track>  
+	</video>
+
+</div>
+
+</body>
+</html>
