@@ -9,12 +9,11 @@ The Web Video Text Tracks Format
 
 3. Getting Started With the Track Element: http://www.html5rocks.com/en/tutorials/track/basics/
 
-4. <Track> Tag must has "default" attribute. For example:
-
-  <track src="subtitle.vtt" kind="subtitles" srclang="en" label="English subtitles" default/> 
+4. Track Tag must has "default" attribute. For example:
+  <track src="subtitle.vtt" kind="subtitles" srclang="en" label="English subtitles" default/ 
   </track>
 
-5. the <Track> must be closed.
+5. the Track must be closed.
 
 6. The subtitles.vtt first line must have keywords "WEBVTT". 
 
