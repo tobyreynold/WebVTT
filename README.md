@@ -19,3 +19,5 @@ The Web Video Text Tracks Format
 7. Demo URL: http://html5videoguide.net/presentations/WebVTT/#landing-slide
 
 8. Browers supported status: http://caniuse.com/#feat=webvtt
+
+9. Dev.opera introduction track tag by chinese. url: http://dev.opera.com/articles/zh-cn/an-introduction-to-webvtt-and-track/ 
