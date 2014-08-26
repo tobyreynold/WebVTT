@@ -11,9 +11,13 @@ The Web Video Text Tracks Format
 
 4. <Track> Tag must has "default" attribute. For example:
 
-<track src="subtitle.vtt" kind="subtitles" srclang="en" label="English subtitles" default/> 
-</track>  
+  <track src="subtitle.vtt" kind="subtitles" srclang="en" label="English subtitles" default/> 
+  </track>
 
 5. the <Track> must be closed.
 
 6. The subtitles.vtt first line must have keywords "WEBVTT". 
+
+7. Demo URL: http://html5videoguide.net/presentations/WebVTT/#landing-slide
+
+8. Browers supported status: http://caniuse.com/#feat=webvtt
