@@ -21,3 +21,7 @@ The Web Video Text Tracks Format
 8. Browers supported status: http://caniuse.com/#feat=webvtt
 
 9. Dev.opera introduction track tag by chinese. url: http://dev.opera.com/articles/zh-cn/an-introduction-to-webvtt-and-track/ 
+
+10. WebVTT check Tools,http://quuz.org/webvtt/
+
+11. WebVTT ::cue(selector),http://kyle.barnhart.ca/2012/10/web-video-text-tracks-webvtt.html
