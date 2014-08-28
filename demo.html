@@ -12,12 +12,32 @@
 			font-size:80%;
 			font-family:verdana, serif;
 		}
+
+		::cue {
+			font-family: simsun;
+			font-weight: bold;
+		}
+
+		::cue(c) { color:red; }
+
+		::cue(c.fr) { color:#999; background: #efefef;}
+
+		::cue(c.emo) { color:blue; background: grey; }
+
+		::cue(b:past) { color:green; }
+
+		::cue(b.ni) { color:lime; }
+
+		::cue(i:past) { color:yellow; }
+
+		::cue(b.ha) {color: #000;background: #FFF;}
+		
 	</style>
 </head>
 <body>
 
 <div style="margin:0 auto;width:960px;">
-	<video width="960" height="480" controls="controls">
+	<video width="560" height="320" controls="controls">
   	<source src="../img/Wedding.mp4" type="video/mp4">
   	<track src="../img/subtitle.vtt" kind="subtitles" srclang="en" label="English subtitles" default/> 
   	</track>  
